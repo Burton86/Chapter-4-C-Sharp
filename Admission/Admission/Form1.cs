@@ -10,11 +10,33 @@ using System.Windows.Forms;
 
 namespace Admission
 {
-    public partial class Form1 : Form
+    public partial class Admission : Form
     {
-        public Form1()
+        public Admission()
         {
             InitializeComponent();
+        }
+
+        private void btnSubmit_Click(object sender, EventArgs e)
+        {
+            int AdmissionTest;
+            double GPA;
+
+            GPA = Convert.ToDouble(txtGPA.Text);
+            AdmissionTest = Convert.ToInt32(txtTestScore.Text);
+
+            if (GPA >= 3.0 && AdmissionTest >= 60)
+            {
+                lblQualfication.Text = "Accept";
+            }
+            else if (GPA <= 3.0 && AdmissionTest >= 80)
+            {
+                lblQualfication.Text = "Accept";
+            }
+            else
+            {
+                lblQualfication.Text = "Reject";
+            }
         }
     }
 }
