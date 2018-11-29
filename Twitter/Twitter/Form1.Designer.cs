@@ -81,7 +81,7 @@
             this.Controls.Add(this.txtTwitterMsg);
             this.Controls.Add(this.lblCounter);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Twitter";
             this.ResumeLayout(false);
             this.PerformLayout();
 

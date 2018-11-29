@@ -89,7 +89,7 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.dayBox);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Daily Special";
             this.ResumeLayout(false);
             this.PerformLayout();
 

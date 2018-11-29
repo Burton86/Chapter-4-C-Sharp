@@ -205,7 +205,7 @@
             this.Controls.Add(this.txt5Pm);
             this.Controls.Add(this.txt8Am);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "FahrenheitToCelsius";
             this.ResumeLayout(false);
             this.PerformLayout();
 

@@ -78,7 +78,7 @@
             this.Controls.Add(this.btnTransaction);
             this.Controls.Add(this.txtprice);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "CheckCredit";
             this.ResumeLayout(false);
             this.PerformLayout();
 
